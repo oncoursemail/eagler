@@ -24,7 +24,7 @@ const relayId = Math.floor(Math.random() * 3);
 window.eaglercraftOpts = {
 container: "game_frame", assetsURI: "assets.epk", serverWorkerURI: "worker_bootstrap.js", worldsFolder: "MAIN",
 servers: [
-	{ serverName: "placeholder", serverAddress: "address here", hideAddress: false }
+	{ serverName: "OMIT", serverAddress: "ws://omit.tk:25565", hideAddress: true }
 ],
 relays: [
 	{ addr: "wss://relay.deev.is/", name: "lax1dude relay #1", primary: relayId == 0 },
